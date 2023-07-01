@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+}
+.btn-primary{
+font-size: 35px;
+border-radius: 8px;
+}
+.btn-warning:hover{
+    background-color: chartreuse;
+    font-size: 20px;
+}
+
+@keyframes colour{
+    from{box-shadow: 1px 1px 35px blue;}
+    to{box-shadow: 1px 1px 35px blueviolet}
+    }
+    
+    canvas{
+        animation-name: colour;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        border-radius: 20px;
+    }
